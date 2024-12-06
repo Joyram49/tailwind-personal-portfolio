@@ -204,7 +204,7 @@ export const projects = [
     id: "project06",
     img: video,
     title: "Video Application",
-    desc: "backend technologies. The frontend leverages React for creating dynamic user interfaces and React Router DOM for navigation, while state management is handled by Redux Toolkit. The application fetches and manages data using Axios, interacting with a lightweight backend powered by the LWS JSON Server, which serves as the mock API for videos, channels, and related data. The project includes responsive design, dynamic routing for video and channel pages, and functionality to mimic core features of YouTube, such as browsing videos, viewing video details, and exploring related content. This project demonstrates a clean separation between the client and server, making it scalable and adaptable for future enhancements.",
+    desc: "backend technologies. The frontend leverages React for creating dynamic user interfaces and React Router DOM for navigation, while state management is handled by Redux Toolkit. The application fetches and manages data using Axios. The project includes responsive design, dynamic routing for video and channel pages, and functionality to mimic core features of YouTube, such as browsing videos, viewing video details, and exploring related content. This project demonstrates a clean separation between the client and server, making it scalable and adaptable for future enhancements.",
     gitLink:
       "https://github.com/Learn-with-Sumit/assignment-6---add-features-to-video-website-Joyram49",
     gitLogo: TbLink,
