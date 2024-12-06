@@ -179,13 +179,12 @@ export const projects = [
   {
     id: "project04",
     img: ExpenseTracker,
-    title: "Expense Tracker",
-    desc: "This project is an Expense Tracker Application developed using React and Redux Toolkit. It helps users manage their finances by tracking income and expenses, providing insights into their spending patterns. The application uses Axios for API communication and React Router DOM for client-side routing, ensuring a seamless user experience.",
-    gitLink:
-      "https://github.com/Joyram49/expense-tracker-application-Joyram49.git",
+    title: "Mern Expense Tracker",
+    desc: "This is a full-stack Expense Tracker Application built using the MERN stack, which includes MongoDB, Express, React, and Node.js. The app allows users to track their income and expenses in real-time and visualize their spending patterns using charts. The backend handles data storage and API routes, while the frontend manages the user interface and state.",
+    gitLink: "https://github.com/Joyram49/mern-expense-tracker-client.git",
     gitLogo: TbLink,
     gitContent: "View on GitHub",
-    webLink: "https://expense-tracker-rtk-query.netlify.app/",
+    webLink: "https://mern-expense-tracker30.netlify.app/",
     webLogo: FiExternalLink,
     webContent: "Explore Now",
   },
