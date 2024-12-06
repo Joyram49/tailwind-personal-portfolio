@@ -29,7 +29,6 @@ export {
   about,
   airbnb,
   chat,
-  expense_tracker,
   facebook,
   foodApp,
   home1,
