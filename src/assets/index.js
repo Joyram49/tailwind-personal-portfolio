@@ -2,6 +2,7 @@ import about from "./about.webp";
 import airbnb from "./airbnb.svg";
 import chat from "./chat.webp";
 import expense_tracker from "./expense_tracker.jpg";
+import ExpenseTracker from "./expenseTrackerApp.png";
 import facebook from "./facebook.svg";
 import foodApp from "./food-app.png";
 import home1 from "./home1.webp";
@@ -19,9 +20,12 @@ import screenshotTwo from "./screenshotTwo.png";
 import starbucks from "./starbucks.svg";
 import tailwind from "./tailwindcss.png";
 import todo from "./todo.jpg";
+import TodoApp from "./todoApp.png";
 import video from "./video.jpg";
 
 export {
+  ExpenseTracker,
+  TodoApp,
   about,
   airbnb,
   chat,

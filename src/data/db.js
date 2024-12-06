@@ -10,7 +10,7 @@ import { TbLink } from "react-icons/tb";
 
 import {
   airbnb,
-  expense_tracker,
+  ExpenseTracker,
   facebook,
   foodApp,
   home1,
@@ -23,7 +23,7 @@ import {
   quiz,
   starbucks,
   tailwind,
-  todo,
+  TodoApp,
   video,
 } from "../assets";
 
@@ -165,7 +165,7 @@ export const projects = [
   },
   {
     id: "project03",
-    img: todo,
+    img: TodoApp,
     title: "Todo application with rtk query",
     desc: "This project is a Todo List Application built using React and Redux Toolkit (RTK Query) to manage state and handle asynchronous data fetching. The application is connected to a JSON Server that acts as a mock backend, providing RESTful APIs for CRUD operations on todo items.",
     gitLink:
@@ -178,14 +178,14 @@ export const projects = [
   },
   {
     id: "project04",
-    img: expense_tracker,
+    img: ExpenseTracker,
     title: "Expense Tracker",
-    desc: "Expense Tracker with react redux",
+    desc: "This project is an Expense Tracker Application developed using React and Redux Toolkit. It helps users manage their finances by tracking income and expenses, providing insights into their spending patterns. The application uses Axios for API communication and React Router DOM for client-side routing, ensuring a seamless user experience.",
     gitLink:
-      "https://github.com/Learn-with-Sumit/assignment-7---add-features-to-expense-tracker-application-Joyram49",
+      "https://github.com/Joyram49/expense-tracker-application-Joyram49.git",
     gitLogo: TbLink,
     gitContent: "View on GitHub",
-    webLink: "https://relaxed-babka-3d740a.netlify.app/",
+    webLink: "https://expense-tracker-rtk-query.netlify.app/",
     webLogo: FiExternalLink,
     webContent: "Explore Now",
   },
