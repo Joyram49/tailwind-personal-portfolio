@@ -1,29 +1,30 @@
 import {
-  BsTwitter,
-  BsInstagram,
-  BsGithub,
-  BsLinkedin,
   BsEnvelopeFill,
+  BsGithub,
+  BsInstagram,
+  BsLinkedin,
+  BsTwitter,
 } from "react-icons/bs";
-import { TbLink } from "react-icons/tb";
 import { FiExternalLink } from "react-icons/fi";
+import { TbLink } from "react-icons/tb";
 
 import {
-  portfolio,
-  quiz,
-  todo,
+  airbnb,
   expense_tracker,
-  video,
-  tailwind,
+  facebook,
+  foodApp,
   home1,
   home2,
   home3,
   home4,
   home5,
-  airbnb,
-  facebook,
-  starbucks,
   planetaria,
+  portfolio,
+  quiz,
+  starbucks,
+  tailwind,
+  todo,
+  video,
 } from "../assets";
 
 export const navLinks = [
@@ -140,18 +141,30 @@ export const articles = [
 export const projects = [
   {
     id: "project01",
-    img: portfolio,
-    title: "Personal portfolio",
-    desc: "Personal portfolio made with html, css, reactjs, framer motion etc",
-    gitLink: "https://github.com/Joyram49/personal-portfolio-two",
+    img: foodApp,
+    title: "Khuda Lagche",
+    desc: "Developed a dynamic and fully responsive food ordering website using Next.js and Tailwind CSS. Integrated advanced features like user authentication (NextAuth), real-time state management (React Hook Form), and Stripe for payment processing. Enhanced user experience with Radix UI components, Leaflet for interactive maps, and animations via Framer.",
+    gitLink: "https://github.com/Joyram49/khuda-lagche.git",
     gitLogo: TbLink,
     gitContent: "View on GitHub",
-    webLink: "https://personal-portfolio-two.netlify.app/",
+    webLink: "https://khuda-lagche-lbld.vercel.app/",
     webLogo: FiExternalLink,
     webContent: "Explore Now",
   },
   {
     id: "project02",
+    img: portfolio,
+    title: "Personal portfolio",
+    desc: "I've developed a fully responsive portfolio using React.js, HTML, and CSS, with Framer Motion for smooth animations and transitions. This portfolio elegantly showcases my work, with an intuitive design that adapts seamlessly to all screen sizes for an engaging user experience.",
+    gitLink: "https://github.com/Joyram49/personal-portfolio-final.git",
+    gitLogo: TbLink,
+    gitContent: "View on GitHub",
+    webLink: "https://personal-portfolio-final-30.netlify.app/",
+    webLogo: FiExternalLink,
+    webContent: "Explore Now",
+  },
+  {
+    id: "project03",
     img: todo,
     title: "Todo apps",
     desc: "Todo application with rtk query",
@@ -164,7 +177,7 @@ export const projects = [
     webContent: "Explore Now",
   },
   {
-    id: "project03",
+    id: "project04",
     img: expense_tracker,
     title: "Expense Tracker",
     desc: "Expense Tracker with react redux",
@@ -177,7 +190,7 @@ export const projects = [
     webContent: "Explore Now",
   },
   {
-    id: "project04",
+    id: "project05",
     img: quiz,
     title: "Quiz Application",
     desc: "Quiz application with react hooks and firebase, html, css etc",
@@ -189,7 +202,7 @@ export const projects = [
     webContent: "Explore Now",
   },
   {
-    id: "project05",
+    id: "project06",
     img: video,
     title: "Video Application",
     desc: "Video application with react hooks, react-redux, firebase, html, css etc",
@@ -202,7 +215,7 @@ export const projects = [
     webContent: "Explore Now",
   },
   {
-    id: "project06",
+    id: "project07",
     img: tailwind,
     title: "Modern Hoobank Website",
     desc: "A complete tailwind css 3 website.",
