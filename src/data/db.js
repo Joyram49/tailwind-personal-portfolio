@@ -166,10 +166,10 @@ export const projects = [
   {
     id: "project03",
     img: todo,
-    title: "Todo apps",
-    desc: "Todo application with rtk query",
+    title: "Todo application with rtk query",
+    desc: "This project is a Todo List Application built using React and Redux Toolkit (RTK Query) to manage state and handle asynchronous data fetching. The application is connected to a JSON Server that acts as a mock backend, providing RESTful APIs for CRUD operations on todo items.",
     gitLink:
-      "https://github.com/Learn-with-Sumit/assignment-8---advanced-todo-application-with-rtk-query-Joyram49",
+      "https://github.com/Joyram49/About-advanced-todo-application-with-rtk-query.git",
     gitLogo: TbLink,
     gitContent: "View on GitHub",
     webLink: "https://todo-app-with-rtk.netlify.app/",
