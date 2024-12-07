@@ -15,7 +15,7 @@ import me from "./me.jpg";
 import hoobank from "./modernUI.png";
 import planetaria from "./planetaria.svg";
 import planetariatitle from "./planetariatitle.webp";
-import portfolio from "./portfolio.jpg";
+import { default as portfolio, default as portfolio2 } from "./portfolio.jpg";
 import quiz from "./quiz.png";
 import restaurant from "./restaurant.png";
 import screenshotOne from "./screenshotOne.png";
@@ -45,6 +45,7 @@ export {
   planetaria,
   planetariatitle,
   portfolio,
+  portfolio2,
   quiz,
   restaurant,
   screenshotOne,
