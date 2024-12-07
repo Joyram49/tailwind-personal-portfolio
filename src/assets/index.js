@@ -10,11 +10,14 @@ import home2 from "./home2.webp";
 import home3 from "./home3.webp";
 import home4 from "./home4.webp";
 import home5 from "./home5.webp";
+import khanaKhazana from "./khanaKhazana.png";
 import me from "./me.jpg";
+import hoobank from "./modernUI.png";
 import planetaria from "./planetaria.svg";
 import planetariatitle from "./planetariatitle.webp";
 import portfolio from "./portfolio.jpg";
 import quiz from "./quiz.png";
+import restaurant from "./restaurant.png";
 import screenshotOne from "./screenshotOne.png";
 import screenshotTwo from "./screenshotTwo.png";
 import starbucks from "./starbucks.svg";
@@ -36,11 +39,14 @@ export {
   home3,
   home4,
   home5,
+  hoobank,
+  khanaKhazana,
   me,
   planetaria,
   planetariatitle,
   portfolio,
   quiz,
+  restaurant,
   screenshotOne,
   screenshotTwo,
   starbucks,
