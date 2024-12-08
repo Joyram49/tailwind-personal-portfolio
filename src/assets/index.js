@@ -12,6 +12,7 @@ import home4 from "./home4.webp";
 import home5 from "./home5.webp";
 import khanaKhazana from "./khanaKhazana.png";
 import me from "./me.jpg";
+import mernCRUD from "./mernCrud.png";
 import hoobank from "./modernUI.png";
 import planetaria from "./planetaria.svg";
 import planetariatitle from "./planetariatitle.webp";
@@ -27,11 +28,10 @@ import TodoApp from "./todoApp.png";
 import video from "./video.jpg";
 
 export {
-  ExpenseTracker,
-  TodoApp,
   about,
   airbnb,
   chat,
+  ExpenseTracker,
   facebook,
   foodApp,
   home1,
@@ -42,6 +42,7 @@ export {
   hoobank,
   khanaKhazana,
   me,
+  mernCRUD,
   planetaria,
   planetariatitle,
   portfolio,
@@ -53,5 +54,6 @@ export {
   starbucks,
   tailwind,
   todo,
+  TodoApp,
   video,
 };
