@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Articles from "./pages/Articles";
-import Speaking from "./pages/Speaking";
+import Experience from "./pages/Experience";
 import Uses from "./pages/Uses";
 import Projects from "./pages/Projects";
 import { Routes, Route } from "react-router-dom";
@@ -22,7 +22,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/articles' element={<Articles />} />
           <Route path='/articles/:article' element={<ArticlePage />} />
-          <Route path='/speaking' element={<Speaking />} />
+          <Route path='/experience' element={<Experience />} />
           <Route path='/uses' element={<Uses />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/thank-you' element={<ThankYou />} />

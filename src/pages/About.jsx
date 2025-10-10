@@ -22,35 +22,26 @@ const About = () => {
         </div>
         <div className='lg:order-first lg:row-span-2'>
           <h1 className='mb-6 dark:text-zinc-50 text-stone-800/90 font-bold text-[28px] sm:text-[44px] font-poppins leading-[48px] sm:leading-[62px] tracking-tight'>
-            I’m Spencer Sharp. I live in New York City, where I design the
-            future.
+            I’m Joy Ram Das, Frontend Engineer on a Journey to Full-Stack Mastery 
           </h1>
           <div className='flex-1  flex flex-col justify-start items-center gap-10'>
             <p className='font-jost  sm:text-lg text-base tracking-tight text-zinc-800/90 dark:text-zinc-300/60'>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              I'm a BSc graduate in Computer Science and Engineering who discovered 
+              my passion for frontend development during my academic journey. What started 
+              as curiosity about how websites work evolved into a deep fascination with 
+              creating beautiful, functional user interfaces that solve real-world problems.
             </p>
             <p className='font-jost text-lg tracking-tight text-zinc-800/90 dark:text-zinc-300/60'>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              With nearly a year of professional experience as a Frontend Software Engineer, 
+              I've had the opportunity to work on diverse projects and contribute to real-life 
+              full-stack applications. I'm constantly practicing programming in JavaScript, 
+              solving algorithmic problems, and staying updated with the latest frontend technologies to deliver exceptional user experiences.
             </p>
             <p className='font-jost text-lg tracking-tight text-zinc-800/90 dark:text-zinc-300/60'>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              My frontend expertise spans HTML, CSS, JavaScript, Typescript, Bootstrap, Tailwind CSS, React.js, ShadCN, Next.js, React Hook Form, Redux, TanStack Query, and TanStack Table. I specialize in REST API integration and follow best practices for handling different data states like loading, error, and success scenarios. I'm passionate about writing clean, maintainable code that performs optimally across all devices.
             </p>
             <p className='font-jost text-lg tracking-tight text-zinc-800/90 dark:text-zinc-300/60'>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really can make it to
-              orbit — from the comfort of their own backyards.
+              Beyond frontend development, I've expanded my skills into backend technologies including Node.js, Express.js, MongoDB, JWT, NextAuth, Supabase, Firebase, Prisma ORM, Drizzle ORM, and both SQL and NoSQL databases like PostgreSQL and Mongoose. This full-stack knowledge allows me to understand the complete development lifecycle and build robust, scalable applications.
             </p>
           </div>
         </div>

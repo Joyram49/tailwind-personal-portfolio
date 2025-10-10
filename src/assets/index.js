@@ -26,6 +26,9 @@ import tailwind from "./tailwindcss.png";
 import todo from "./todo.jpg";
 import TodoApp from "./todoApp.png";
 import video from "./video.jpg";
+import rentyard from "./rentyard.jpg";
+import devcore from "./devcore.jpeg";
+import resume from "./joyram0605.pdf";
 
 export {
   about,
@@ -56,4 +59,7 @@ export {
   todo,
   TodoApp,
   video,
+  rentyard,
+  devcore,
+  resume,
 };

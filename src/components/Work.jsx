@@ -9,7 +9,7 @@ const Work = ({ work }) => {
           <img
             src={img}
             alt='work-img'
-            className='w-full h-full object-cover'
+            className='w-full h-full object-cover rounded-full'
           />
         </div>
         <div>

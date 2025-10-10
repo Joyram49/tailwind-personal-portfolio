@@ -9,9 +9,19 @@ import { works } from "../data/db";
 import { BiBriefcase } from "react-icons/bi";
 import { BsArrowDownShort } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { resume } from "../assets";
 
 const Home = () => {
   const [over, setOver] = useState(false);
+
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = 'Joy_Ram_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <div
@@ -65,6 +75,7 @@ const Home = () => {
               } rounded-[6px] cursor-pointer flex flex-row justify-center items-center py-2 transition-all duration-300 ease-linear`}
               onMouseOver={() => setOver(true)}
               onMouseOut={() => setOver(false)}
+              onClick={handleDownloadCV}
             >
               <p
                 className={`${
