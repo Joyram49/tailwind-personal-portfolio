@@ -28,7 +28,7 @@ import TodoApp from "./todoApp.png";
 import video from "./video.jpg";
 import rentyard from "./rentyard.jpg";
 import devcore from "./devcore.jpeg";
-import resume from "./joyram0605.pdf";
+import resume from "./joyram1010.pdf";
 
 export {
   about,
