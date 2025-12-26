@@ -32,7 +32,7 @@ const About = () => {
               creating beautiful, functional user interfaces that solve real-world problems.
             </p>
             <p className='font-jost text-lg tracking-tight text-zinc-800/90 dark:text-zinc-300/60'>
-              With nearly a year of professional experience as a Frontend Software Engineer, 
+              With over a year of professional experience as a Frontend Software Engineer, 
               I've had the opportunity to work on diverse projects and contribute to real-life 
               full-stack applications. I'm constantly practicing programming in JavaScript, 
               solving algorithmic problems, and staying updated with the latest frontend technologies to deliver exceptional user experiences.

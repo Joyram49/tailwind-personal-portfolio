@@ -11,7 +11,7 @@ const Hero = () => {
       Turning Ideas into Interfaces, Curious Mind Exploring Code & the World
       </h2>
       <p className='w-full md:max-w-[65%] text-zinc-800 dark:text-zinc-300/70 my-6 font-poppins leading-[28px]'>
-      Frontend Software Engineer with nearly 1 year of experience, skilled in, Javascript, Typescript, React, Next.js, and modern web tools. Contributed to 5 real-life projects, including an employee management SaaS for Power BI analytics access and e-commerce platforms, with fullstack experience in Node.js and MongoDB.
+      Frontend Software Engineer with 1+ year of experience, skilled in, Javascript, Typescript, React, Next.js, and modern web tools. Contributed to 5 real-life projects, including an employee management SaaS for Power BI analytics access and e-commerce platforms, with fullstack experience in Node.js and MongoDB.
       </p>
       <ul className='flex flex-row items-center'>
         {socialLinks.map((socialLink, index) => (
