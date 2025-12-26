@@ -29,6 +29,7 @@ import video from "./video.jpg";
 import rentyard from "./rentyard.jpg";
 import devcore from "./devcore.jpeg";
 import resume from "./joyram1010.pdf";
+import wordle from "./wordle-clone.jpeg";
 
 export {
   about,
@@ -62,4 +63,5 @@ export {
   rentyard,
   devcore,
   resume,
+  wordle,
 };
