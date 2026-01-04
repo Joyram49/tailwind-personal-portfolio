@@ -9,6 +9,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { TbLink } from "react-icons/tb";
 
 import {
+  devcore,
   foodApp,
   home1,
   home2,
@@ -20,11 +21,11 @@ import {
   mernCRUD,
   portfolio,
   portfolio2,
+  powerbi,
+  rentyard,
   restaurant,
   TodoApp,
   video,
-  rentyard,
-  devcore,
   wordle,
 } from "../assets";
 
@@ -144,7 +145,7 @@ export const projects = [
     id: "project01",
     img: foodApp,
     title: "Khuda Lagche",
-    desc: "Developed a Full-stack (MERN) and fully responsive food ordering website using Next.js and Tailwind CSS. Integrated advanced features like user authentication (NextAuth), real-time state management (React Hook Form), Stripe for payment processing. Enhanced user experience with Radix UI components, Leaflet for interactive maps, and animations via Framer.",
+    desc: "Khuda-Lagche is a full-stack restaurant ordering platform built with Next.js 14, React 18, and Tailwind CSS for a responsive, modern UI with framer motion. It features user authentication via NextAuth, secure payments through Stripe integration, and MongoDB for data management. Key functionalities include food item browsing and ordering, shopping cart management, user reviews and ratings, favorites, admin dashboard for restaurant management, image uploads via ImageKit, email notifications with Resend, and interactive maps using Leaflet. The app uses Radix UI components for accessibility, React Hook Form with Zod for form validation, and TanStack Table for data display, making it a comprehensive solution for online food ordering.",
     gitLink: "https://github.com/Joyram49/khuda-lagche.git",
     gitLogo: TbLink,
     gitContent: "View on GitHub",
@@ -154,14 +155,13 @@ export const projects = [
   },
   {
     id: "project02",
-    img: TodoApp,
-    title: "Todo application with rtk query",
-    desc: "This project is a Todo List Application built using React and Redux Toolkit (RTK Query) to manage state and handle asynchronous data fetching. The application is connected to a JSON Server that acts as a mock backend, providing RESTful APIs for CRUD operations on todo items.",
-    gitLink:
-      "https://github.com/Joyram49/About-advanced-todo-application-with-rtk-query.git",
+    img: powerbi,
+    title: "PowerBI admin dashboard",
+    desc: "This project is a multi-role e-commerce administration platform built with the T3 stack (Next.js, TypeScript, Tailwind CSS, tRPC, Prisma, and NextAuth) in a Turborepo monorepo setup. It implements strict role-based access control with Super Admin, Admin, and User roles—only authorized users can log in. Super Admins manage admins and users, Admins create companies, generate reports, and attach employees, while adding users requires purchasing subscription plans via Stripe integration. Key features include secure authentication, dynamic role assignment, company management, report generation, and payment processing. Technologies used: Next.js for the frontend, Prisma for database ORM, Stripe for subscriptions, tRPC for type-safe APIs, and Tailwind CSS for styling.",
+    gitLink: "https://github.com/Joyram49/powerbi-admin-dashboard",
     gitLogo: TbLink,
     gitContent: "View on GitHub",
-    webLink: "https://todo-app-with-rtk.netlify.app/",
+    webLink: "https://powerbi-admin-dashboard-nextjs.vercel.app/",
     webLogo: FiExternalLink,
     webContent: "Explore Now",
   },
@@ -259,6 +259,19 @@ export const projects = [
     gitLogo: TbLink,
     gitContent: "View on GitHub",
     webLink: "https://personal-portfolio-final-30.netlify.app/",
+    webLogo: FiExternalLink,
+    webContent: "Explore Now",
+  },
+  {
+    id: "project11",
+    img: TodoApp,
+    title: "Todo application with rtk query",
+    desc: "This project is a Todo List Application built using React and Redux Toolkit (RTK Query) to manage state and handle asynchronous data fetching. The application is connected to a JSON Server that acts as a mock backend, providing RESTful APIs for CRUD operations on todo items.",
+    gitLink:
+      "https://github.com/Joyram49/About-advanced-todo-application-with-rtk-query.git",
+    gitLogo: TbLink,
+    gitContent: "View on GitHub",
+    webLink: "https://todo-app-with-rtk.netlify.app/",
     webLogo: FiExternalLink,
     webContent: "Explore Now",
   },

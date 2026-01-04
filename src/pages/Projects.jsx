@@ -1,6 +1,5 @@
-import React from "react";
-import { projects } from "../data/db";
 import Card from "../components/Card";
+import { projects } from "../data/db";
 
 const Projects = () => {
   return (

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Card = ({ project }) => {
   const { img, title, desc, gitLink, gitContent, webLink, webContent } =
     project;
@@ -17,7 +15,7 @@ const Card = ({ project }) => {
         {title}
       </h2>
       <p className='text-zinc-900/90  dark:text-zinc-300/80 text-[16px] leading-[23px] font-jost mb-6 font-normal tracking-tight'>
-        {desc}. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem
+        {desc}
       </p>
       <div className='dark:text-zinc-200/90 text-zinc-600/90 dark:hover:text-teal-500 hover:text-teal-500/80 font-poppins text-sm font-semibold max-w-max mb-2'>
         <a
